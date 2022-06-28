@@ -1,0 +1,48 @@
+.products {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.065);
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 15px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.button {
+  color: #6d28d9;
+  border: 1px solid #6d28d9;
+  border-radius: 3px;
+  outline: none;
+  padding: 1px 8px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.incButton {
+  background-color: #e5dbf5;
+}
+
+.quantityVal {
+  background-color: #ece6f5ba;
+  color: #6d28d9;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove {
+  color: red;
+  border: 1px solid red;
+  background-color: #fff;
+}

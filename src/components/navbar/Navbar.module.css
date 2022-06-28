@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #ece6f5ba;
+  width: 100vw;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  color: #6d28d9;
+}
+
+.cart {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0.5rem auto;
+  width: 30vw;
+}
+
+.cartnum {
+  background-color: #ece6f5ba;
+  color: #6d28d9;
+
+  border-radius: 50%;
+  margin: 0.2rem 0.4rem;
+  padding: 0.1rem 0.4rem;
+
+  justify-content: center;
+  align-items: center;
+}

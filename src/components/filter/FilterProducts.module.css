@@ -1,0 +1,19 @@
+.filterBox {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.selectContainer label {
+  margin-right: 0.7rem;
+  margin-left: 2rem;
+  font-size: 17px;
+}

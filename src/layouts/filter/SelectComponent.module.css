@@ -1,0 +1,9 @@
+.selectContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.selectTag {
+  width: 100px;
+}
