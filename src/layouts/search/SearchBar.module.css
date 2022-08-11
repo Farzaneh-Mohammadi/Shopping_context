@@ -18,3 +18,20 @@
 .searchContainer input:focus {
   border: 2px solid #6d28d9;
 }
+
+
+@media only screen and (max-width: 600px) { 
+	.searchContainer {
+width: 80vw;
+margin: 1rem auto;
+
+	}
+
+
+	.searchContainer label {
+		font-size: 15px;
+	}
+
+
+
+}

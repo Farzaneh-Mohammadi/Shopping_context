@@ -17,3 +17,26 @@
   margin-left: 2rem;
   font-size: 17px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+
+	.filterBox h3{
+	margin-left: 4rem;
+	font-size: 15px;
+	}
+	
+	.selectContainer {
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+	}
+	
+	.selectContainer label {
+		margin-right: 0.7rem;
+		margin-left: 2rem;
+		font-size: 16px;
+	}
+}
+ 

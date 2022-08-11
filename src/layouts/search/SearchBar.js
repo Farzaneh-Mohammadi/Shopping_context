@@ -25,10 +25,10 @@ const SearchBar = ({ filter }) => {
 				<BiSearch />
 			</IconContext.Provider>
 
-			<label>Search for: </label>
+			<label>Search: </label>
 
 			<input type="text"
-				placeholder="search ..."
+				placeholder="search for ..."
 				onChange={changeHandler}
 				value={searchValue}
 			/>

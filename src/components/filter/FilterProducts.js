@@ -54,7 +54,9 @@ export default function FilterProducts() {
 						title="filter size by:"
 						value={sizeValue}
 						onChange={filterSizeHandler}
-						options={filterOptions} />
+						options={filterOptions}
+						
+						 />
 
 					<SelectComponent
 						title="sort cost by:"

@@ -1,3 +1,5 @@
+
+
 .navbar {
   background-color: #ece6f5ba;
   width: 100vw;
@@ -29,4 +31,13 @@ h1 {
 
   justify-content: center;
   align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) { 
+	.cart {
+		font-size: 14px;
+		width: 70vw;
+	}
 }

@@ -10,10 +10,20 @@
   margin: 15px 0;
 }
 
+
+.productText{
+display: flex;
+justify-content: space-around;
+width: 60%;
+}
+
+
+
 .buttons {
   display: flex;
   justify-content: space-between;
-  width: 15%;
+  width: 25%;
+	height: 2.5rem;
 }
 
 .button {
@@ -46,3 +56,37 @@
   border: 1px solid red;
   background-color: #fff;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+	.products {
+		font-size: 16px;
+		padding: 2rem 2rem;
+		
+
+	}
+	
+	.productText{
+		flex-direction: column;
+	}
+
+	.products p, .products span {
+margin-bottom: 10px;
+
+	}
+
+
+	.buttons {
+	flex-direction: column;
+		justify-content: space-around;
+		width: 25%;
+
+		margin-top: 1rem;
+	}
+
+	.button {
+		margin: .3rem 0;
+	}
+
+ } 

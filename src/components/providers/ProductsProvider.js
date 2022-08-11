@@ -1,4 +1,4 @@
-import React, { useState, useContext, useReducer } from 'react'
+import React, { useContext, useReducer } from 'react'
 import { ProductsData } from '../../db/ProductsData';
 
 import _ from "lodash";
